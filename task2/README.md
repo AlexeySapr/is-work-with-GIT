@@ -23,7 +23,7 @@ g h i j k l m n o p
 h i j k l m n o p q
 i j k l m n o p q r
 j k l m n o p q r s
-</pre></code>
+</code></pre>
 
 Notes: <br/>
 After "z" comes "a"

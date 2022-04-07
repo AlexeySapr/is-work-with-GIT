@@ -21,3 +21,5 @@ Examples (Input => Output)
 * calculate("..... // .")              => "....."
 * calculate(". // ..")                 => ""
 * calculate(".. - ..")                => ""
+
+Some changes

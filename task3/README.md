@@ -12,4 +12,7 @@ Write a function that takes a string of parentheses, and determines if the order
 </pre>
 
 <h2>Constraints</h2>
+
 <code>0 <= input.length <= 100</code>
+
+Some updates
