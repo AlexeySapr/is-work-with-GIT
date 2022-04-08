@@ -1,4 +1,7 @@
 function calculate(str) {
+  if (typeof str !== 'string') {
+    return '';
+  }
   const strArr = str.split('').filter(el => el !== ' ');
   const operatorIndex = strArr.findIndex(el => el !== '.');
 
@@ -30,4 +33,4 @@ function calculate(str) {
   return '.'.repeat(resNumber);
 }
 
-console.log('result: ', calculate('..... - .'));
+console.log('result: ', calculate('..+. ..'));
