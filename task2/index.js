@@ -10,7 +10,6 @@ function oneRow(startCharNumber, numberOfChars) {
     ++startCharNumber;
     ++charCounter;
   }
-
   return strArr;
 }
 
@@ -26,7 +25,6 @@ function grid(num) {
 
   while (strCounter < num) {
     let charNumber = startCharNumber + charCounter;
-
     if (charNumber > 122) {
       charCounter = 0;
     }
@@ -37,7 +35,6 @@ function grid(num) {
     ++strCounter;
     ++charCounter;
   }
-
   return strArr.join('');
 }
 
